@@ -12,11 +12,11 @@
 * 25.03.  Javascript & DOM (Document Object Model)
 * *Osterferien*
 * 15.04.  Leaflet Basics, WMTS, Marker & Popups 
-* 22.04.  Leflet thematische Darstellung mit Javascript Datenobjekten
+* 22.04.  Leaflet thematische Darstellung mit Javascript Datenobjekten
 * 29.04.  HTML Formulare, Interaktion im Browser & Animationen
-* 06.05.  Open government data, GeoJSON, Leflet Icons & Markercluster
+* 06.05.  Open government data, GeoJSON, Leaflet Icons & Markercluster
 * 20.05.  Leaflet DivIcons, Farbpaletten, Ajax
-* 27.05.  Leaflet GPX-Profile, Icons & GeoNames Web Services
+* 27.05.  Leaflet GPX-Profile & GeoNames Web Services
 * *Projektphase*
 * 17.06.  Präsentationen
 * 24.06.  Präsentationen (Ersatztermin)
