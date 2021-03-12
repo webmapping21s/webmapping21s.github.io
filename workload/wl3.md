@@ -4,8 +4,8 @@
 
 * eure Seite soll **genau** den Vorgaben der Challenge entsprechen und im Sourcecode keine Fehler anzeigen
 * die Challenge und Route findet ihr jetzt hier:
-    * https://webmapping.github.io/nz/challenge.html
-    * https://webmapping.github.io/nz/route.html
+    * [https://webmapping.github.io/nz/challenge.html](https://webmapping.github.io/nz/challenge.html)
+    * [https://webmapping.github.io/nz/route.html](https://webmapping.github.io/nz/route.html)
 
 
 ### CSS Online Tutorials der *Codecademy*
