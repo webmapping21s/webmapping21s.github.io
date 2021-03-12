@@ -20,7 +20,7 @@
 ### Parallel dazu GIT verwenden
 
 * für jedes Tutorial wird **ein** Unterverzeichnis erstellt
-* in jedem Unterverzeichnis wird eine `index.html` und `styles.css` Datei erstellt
+* in jedem Unterverzeichnis wird eine `index.html` und `style.css` Datei erstellt
 * für das zweite Tutorial (Aufgabe 10) wird zusätzlich eine `style-library.css` Datei erstellt
 * die beiden Tutorials sollen unter diesen Adressen erreichbar sein:
 
