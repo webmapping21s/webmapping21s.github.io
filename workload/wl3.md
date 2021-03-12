@@ -30,4 +30,4 @@
 * vor jedem Wechsel zur nächsten Aufgabe (sobald der gelbe `Next` Button erscheint), den erzeugten Quellcode der erfolgreichen Aufgabe **überschreibend** in die entsprechende(n) Datei(en) kopieren
 * *stagen* und mit dem Titel der Lektion als *commit*-Message *committen*
 
-Bis spätestens **Donnerstag, 18. März 2021 mittags** sollen die Tutorials und Etappenseite über die entsprechenden Links erreichbar sein
+Bis spätestens **Donnerstag, 18. März 2021 mittags** sollen die Tutorials und die Etappenseite über die entsprechenden Links erreichbar sein
