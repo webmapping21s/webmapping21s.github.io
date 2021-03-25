@@ -47,6 +47,7 @@ nav.onchange = (evt) => {
 
   let username = options[selected].value;
   let link = `https://${username}.github.io/nz/index.html`;
+  window.location.href = link;
   console.log(link);
 }
 
