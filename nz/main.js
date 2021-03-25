@@ -40,6 +40,8 @@ for (let entry of ROUTE) {
 
 }
 
-// 
+nav.onchange = (evt) => {
+  console.log(evt);
+}
 
 console.log(document.querySelector("#map"));
