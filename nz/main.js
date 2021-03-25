@@ -9,16 +9,22 @@ let stop = {
 }
 
 const map = L.map("map", {
-  center: [ stop.lat, stop.lng ],
+  center: [stop.lat, stop.lng],
   zoom: 13,
   layers: [
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
   ]
 });
 
-let mrk = L.marker([ stop.lat, stop.lng ]).addTo(map);
-mrk.bindPopup(`<h4>Stop ${stop.nr}: ${stop.name}<h4>
-<p><a href="${stop.wikipedia}"><i class="fas fa-external-link-alt mr-3"></i>Read about stop in Wikipedia</a></p>
+console.log(ROUTE);
+for (let entry of ROUTE) {
+  console.log(entry);
+  let mrk = L.marker([entry.lat, entry.lng]).addTo(map);
+  mrk.bindPopup(`<h4>Stop ${entry.nr}: ${entry.name}<h4>
+<p><a href="${entry.wikipedia}"><i class="fas fa-external-link-alt mr-3"></i>Read about stop in Wikipedia</a></p>
 `).openPopup();
+
+}
+
 
 console.log(document.querySelector("#map"));
