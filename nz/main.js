@@ -30,5 +30,6 @@ for (let entry of ROUTE) {
 
 }
 
+// <option value="webmapping">Tongariro National Park</option>
 
 console.log(document.querySelector("#map"));
