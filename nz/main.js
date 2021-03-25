@@ -22,10 +22,13 @@ console.log('Navigation HTML Element: ', nav);
 // console.log(ROUTE);
 for (let entry of ROUTE) {
   // console.log(entry);
+
+  nav.innerHTML += `<option value="${entry.user}">${entry.name}</option>`;
   let mrk = L.marker([entry.lat, entry.lng]).addTo(map);
   mrk.bindPopup(`<h4>Stop ${entry.nr}: ${entry.name}<h4>
 <p><a href="${entry.wikipedia}"><i class="fas fa-external-link-alt mr-3"></i>Read about stop in Wikipedia</a></p>
 `);
+
   if (entry.nr == 22) {
     map.setView([entry.lat, entry.lng], 13);
     mrk.openPopup();
@@ -33,6 +36,6 @@ for (let entry of ROUTE) {
 
 }
 
-// <option value="webmapping">Tongariro National Park</option>
+// 
 
 console.log(document.querySelector("#map"));
