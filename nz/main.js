@@ -1,3 +1,4 @@
+
 const map = L.map("map", {
   center: [ -39.29, 175.56  ],
   zoom: 13,
@@ -5,3 +6,5 @@ const map = L.map("map", {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
   ]
 });
+
+console.log(document.querySelector("#map"));
