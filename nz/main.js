@@ -22,7 +22,7 @@ for (let entry of ROUTE) {
   let mrk = L.marker([entry.lat, entry.lng]).addTo(map);
   mrk.bindPopup(`<h4>Stop ${entry.nr}: ${entry.name}<h4>
 <p><a href="${entry.wikipedia}"><i class="fas fa-external-link-alt mr-3"></i>Read about stop in Wikipedia</a></p>
-`).openPopup();
+`);
 
 }
 
