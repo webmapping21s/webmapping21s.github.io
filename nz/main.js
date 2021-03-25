@@ -8,6 +8,7 @@ let stop = {
   wikipedia: "https://en.wikipedia.org/wiki/Tongariro_National_Park"
 }
 
+
 const map = L.map("map", {
   // center: [stop.lat, stop.lng],
   // zoom: 13,
@@ -16,7 +17,9 @@ const map = L.map("map", {
   ]
 });
 
-console.log(ROUTE);
+let nav = document.querySelector('#navigation');
+console.log('Navigation HTML Element: ', nav);
+// console.log(ROUTE);
 for (let entry of ROUTE) {
   // console.log(entry);
   let mrk = L.marker([entry.lat, entry.lng]).addTo(map);
