@@ -25,7 +25,7 @@ let awsLayer = L.featureGroup();
 layerControl.addOverlay(awsLayer, "Wetterstationen Tirol");
 // awsLayer.addTo(map);
 let snowLayer = L.featureGroup();
-layerControl.addOverlay(snowLayer, "Schneehöhen");
+layerControl.addOverlay(snowLayer, "Schneehöhen (cm)");
 snowLayer.addTo(map);
 
 
