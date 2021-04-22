@@ -29,8 +29,10 @@ let layerControl = L.control.layers({
     "Wetterstationen Tirol": overlays.stations,
     "Temperatur (°C)": overlays.temperature,
     "Schneehöhe (cm)": overlays.snowheight,
-    "Windgeschwindigkeit (km/h)": overlays.windspeed,
+    "Windgeschwindigkeit (km/h)":  overlays.windspeed,
     "Windrichtung": overlays.winddirection
+}, {
+    collapsed: false
 }).addTo(map);
 overlays.temperature.addTo(map);
 
