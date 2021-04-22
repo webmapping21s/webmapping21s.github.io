@@ -36,6 +36,10 @@ let layerControl = L.control.layers({
 }).addTo(map);
 overlays.temperature.addTo(map);
 
+L.control.scale({
+    imperial: false
+}).addTo(map);
+
 let awsUrl = 'https://wiski.tirol.gv.at/lawine/produkte/ogd.geojson';
 fetch(awsUrl)
     .then(response => response.json())
@@ -61,7 +65,7 @@ fetch(awsUrl)
             <a target="_blank" href="https://wiski.tirol.gv.at/lawine/grafiken/1100/standard/tag/${station.properties.plot}.png">Grafik</a>
             `);
             marker.addTo(overlays.stations);
-            if (station.properties.HS) {
+            if (typeof station.properties.HS == "number") {
                 let highlightClass = '';
                 if (station.properties.HS > 100) {
                     highlightClass = 'snow-100';
@@ -80,7 +84,7 @@ fetch(awsUrl)
                 });
                 snowMarker.addTo(overlays.snowheight);
             }
-            if (station.properties.WG) {
+            if (typeof station.properties.WG == "number") {
                 let windHighlightClass = '';
                 if (station.properties.WG > 10) {
                     windHighlightClass = 'wind-10';
@@ -98,6 +102,9 @@ fetch(awsUrl)
                     icon: windIcon
                 });
                 windMarker.addTo(overlays.windspeed);
+            }
+            if (typeof station.properties.LT == "number") {
+                console.log(station.properties.LT)
             }
         }
         // set map view to all stations
