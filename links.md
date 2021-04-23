@@ -10,6 +10,7 @@
 - [Leaflet API reference](https://leafletjs.com/reference.html)
     ### Plugins
     - [leaflet-providers](https://github.com/leaflet-extras/leaflet-providers)
+    - [Leaflet.Rainviewer](https://github.com/mwasil/Leaflet.Rainviewer)
 
 ## Webtools
 
