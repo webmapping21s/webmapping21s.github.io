@@ -61,7 +61,7 @@ let drawBusStop = (geojsonData) => {
                 })
             })
         }
-    }).addTo(map);
+    }).addTo(overlays.busStops);
 }
 
 for (let config of OGDWIEN) {
