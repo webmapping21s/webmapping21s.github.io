@@ -63,7 +63,8 @@ let drawBusStop = (geojsonData) => {
                 })
             })
         },
-        attribution: '<a href="https://data.wien.gv.at">Stadt Wien</a>, <a href="https://mapicons.mapsmarker.com">Maps Icons Collection</a>'
+        // attribution: '<a href="https://data.wien.gv.at">Stadt Wien</a>, <a href="https://mapicons.mapsmarker.com">Maps Icons Collection</a>'
+        attribution: '<a href="https://data.wien.gv.at">Stadt Wien</a>'
     }).addTo(overlays.busStops);
 }
 
@@ -81,7 +82,8 @@ let drawBusLines = (geojsonData) => {
             <hr>
             von ${feature.properties.FROM_NAME}<br>
             nach ${feature.properties.TO_NAME}`)
-        }
+        },
+        attribution: '<a href="https://data.wien.gv.at">Stadt Wien</a>'
     }).addTo(overlays.busLines);
 }
 
@@ -99,10 +101,11 @@ let drawPedestrianAreas = (geojsonData) => {
         onEachFeature: (feature, layer) => {
             layer.bindPopup(`<strong>Fußgängerzone ${feature.properties.ADRESSE}</strong>
             <hr>
-            ${feature.properties.ZEITRAUM} <br>
-            ${feature.properties.AUSN_TEXT}
+            ${feature.properties.ZEITRAUM || ""} <br>
+            ${feature.properties.AUSN_TEXT || ""}
             `);
-        }
+        },
+        attribution: '<a href="https://data.wien.gv.at">Stadt Wien</a>'
     }).addTo(overlays.pedAreas);
 }
 
