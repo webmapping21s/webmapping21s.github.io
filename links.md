@@ -4,6 +4,10 @@
 - [basemap.at - Verwaltungsgrundkarte von Österreich](https://basemap.at/)
 - [data.gv.at - Wetterstationsdaten Tirol](https://www.data.gv.at/katalog/dataset/land-tirol_wetterstationsdatentirol)
 - [Lawinen.report - Lawinenwarndienste Tirol - Südtirol - Trentino](https://lawinen.report/)
+- [OGD Wien - Fußgängerzonen](https://www.data.gv.at/katalog/dataset/946a1d1c-27ea-49d4-93be-9ac68b399a20)
+- [OGD Wien - Haltestellen Vienna Sightseeing](https://www.data.gv.at/katalog/dataset/c3c95669-2a4d-4710-8e95-6a9fce6d131e)
+- [OGD Wien - Liniennetz Vienna Sightseeing](https://www.data.gv.at/katalog/dataset/9e0658a2-7f46-42c5-adef-211c5632ffd2)
+- [OGD Wien - Sehenswürdigkeiten Standorte](https://www.data.gv.at/katalog/dataset/f4e80988-c139-4953-8176-b3d6d03f6449)
 
 ## Leaflet
 - [Leaflet Homepage](https://leafletjs.com/)
@@ -15,9 +19,11 @@
 ## Webtools
 
 - [cdnjs: The #1 free and open source CDN](https://cdnjs.com/)
+- [Colors - A nicer color palette for the web](https://clrs.cc/)
 - [Font Awesome: Get vector icons and social logos on your website](https://fontawesome.com/)
 - [GitHub: Where the world builds software](https://github.com/)
 - [Google Fonts: frei verfügbare Webfonts](https://fonts.google.com/)
+- [Map Icons Collection - 1000+ free & customizable icons for maps](https://mapicons.mapsmarker.com/)
 - [Pixabay: Kostenlose Bilder und Videos](https://pixabay.com/)
 - [RedKetchup: Crop & Resize Images Online ](https://redketchup.io/image-resizer)
 - [Wikimedia Commons: Bilder der Wikipedia](https://commons.wikimedia.org/)
