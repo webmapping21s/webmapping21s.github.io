@@ -17,7 +17,8 @@ let baselayers = {
 let overlays = {
     busLines: L.featureGroup(),
     busStops: L.featureGroup(),
-    pedAreas: L.featureGroup()
+    pedAreas: L.featureGroup(),
+    sites: L.featureGroup()
 };
 
 // Karte initialisieren und auf Wiens Wikipedia Koordinate blicken
@@ -40,13 +41,15 @@ let layerControl = L.control.layers({
 }, {
     "Liniennetz Vienna Sightseeing": overlays.busLines,
     "Haltestellen Vienna Sightseeing": overlays.busStops,
-    "Fußgängerzonen": overlays.pedAreas
+    "Fußgängerzonen": overlays.pedAreas,
+    "Sehenswürdigkeiten": overlays.sites
 }).addTo(map);
 
 // alle Overlays nach dem Laden anzeigen
 overlays.busLines.addTo(map);
 overlays.busStops.addTo(map);
 overlays.pedAreas.addTo(map);
+overlays.sites.addTo(map);
 
 let drawBusStop = (geojsonData) => {
     L.geoJson(geojsonData, {
@@ -109,6 +112,28 @@ let drawPedestrianAreas = (geojsonData) => {
     }).addTo(overlays.pedAreas);
 }
 
+let drawSites = (geojsonData) => {
+    L.geoJson(geojsonData, {
+        onEachFeature: (feature, layer) => {
+            layer.bindPopup(`
+                <img src="${feature.properties.THUMBNAIL}" alt="Vorschaubild"><br>
+                <strong>${feature.properties.NAME}</strong>
+                <hr>
+                Adresse: ${feature.properties.ADRESSE}<br>
+                <a href="${feature.properties.WEITERE_INF}">Weblink</a>
+            `)
+        },
+        pointToLayer: (geoJsonPoint, latlng) => {
+            return L.marker(latlng, {
+                icon: L.icon({
+                    iconUrl: 'icons/sehenswuerdigogd.png',
+                    iconSize: [38, 38]
+                })
+            })
+        },
+        attribution: '<a href="https://data.wien.gv.at">Stadt Wien</a>'
+    }).addTo(overlays.sites);
+}
 for (let config of OGDWIEN) {
     // console.log("Config: ", config.data);
     fetch(config.data)
@@ -121,6 +146,8 @@ for (let config of OGDWIEN) {
                 drawBusLines(geojsonData);
             } else if (config.title === "Fußgängerzonen") {
                 drawPedestrianAreas(geojsonData);
+            } else if (config.title === "Sehenswürdigkeiten Standorte") {
+                drawSites(geojsonData);
             }
         })
 }
