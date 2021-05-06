@@ -167,5 +167,21 @@ var miniMap = new L.Control.MiniMap(
 // Reachability plugin
 L.control.reachability({
     // add settings/options here
-    apiKey: '58d904a497c67e00015b45fc4ca43d6b1b8a4e40886fd72ac021c2cb'
+    apiKey: '58d904a497c67e00015b45fc4ca43d6b1b8a4e40886fd72ac021c2cb',
+    drawButtonContent: '',
+    drawButtonStyleClass: 'fa fa-pencil-alt',
+    deleteButtonContent: '',
+    deleteButtonStyleClass: 'fa fa-trash',
+    distanceButtonContent: '',
+    distanceButtonStyleClass: 'fa fa-road',
+    timeButtonContent: '',
+    timeButtonStyleClass: 'fa fa-clock',
+    travelModeButton1Content: '',
+    travelModeButton1StyleClass: 'fa fa-car',
+    travelModeButton2Content: '',
+    travelModeButton2StyleClass: 'fa fa-bicycle',
+    travelModeButton3Content: '',
+    travelModeButton3StyleClass: 'fa fa-male',
+    travelModeButton4Content: '',
+    travelModeButton4StyleClass: 'fa fa-wheelchair'
 }).addTo(map);
