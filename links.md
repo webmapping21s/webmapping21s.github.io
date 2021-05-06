@@ -8,21 +8,30 @@
 - [OGD Wien - Haltestellen Vienna Sightseeing](https://www.data.gv.at/katalog/dataset/c3c95669-2a4d-4710-8e95-6a9fce6d131e)
 - [OGD Wien - Liniennetz Vienna Sightseeing](https://www.data.gv.at/katalog/dataset/9e0658a2-7f46-42c5-adef-211c5632ffd2)
 - [OGD Wien - Sehenswürdigkeiten Standorte](https://www.data.gv.at/katalog/dataset/f4e80988-c139-4953-8176-b3d6d03f6449)
+- [Openrouteservice](https://openrouteservice.org/)
 
 ## Leaflet
 - [Leaflet Homepage](https://leafletjs.com/)
 - [Leaflet API reference](https://leafletjs.com/reference.html)
-    ### Plugins
+
+- [Leaflet Plugins](https://leafletjs.com/plugins.html)
+    - [Leaflet.Control.FullScreen](https://github.com/brunob/leaflet.fullscreen)
+    - [Leaflet-hash](https://github.com/mlevans/leaflet-hash)
+    - [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
+    - [Leaflet.MiniMap](https://github.com/Norkart/Leaflet-MiniMap)
     - [leaflet-providers](https://github.com/leaflet-extras/leaflet-providers)
     - [Leaflet.Rainviewer](https://github.com/mwasil/Leaflet.Rainviewer)
+    - [leaflet.reachability](https://github.com/traffordDataLab/leaflet.reachability)
 
 ## Webtools
 
 - [cdnjs: The #1 free and open source CDN](https://cdnjs.com/)
+- [ColorBrewer: Color Advice for Maps](https://colorbrewer2.org)
 - [Colors - A nicer color palette for the web](https://clrs.cc/)
 - [Font Awesome: Get vector icons and social logos on your website](https://fontawesome.com/)
 - [GitHub: Where the world builds software](https://github.com/)
 - [Google Fonts: frei verfügbare Webfonts](https://fonts.google.com/)
+- [jsDelivr - A free, fast, and reliable CDN for open source](https://www.jsdelivr.com/)
 - [Map Icons Collection - 1000+ free & customizable icons for maps](https://mapicons.mapsmarker.com/)
 - [Pixabay: Kostenlose Bilder und Videos](https://pixabay.com/)
 - [RedKetchup: Crop & Resize Images Online ](https://redketchup.io/image-resizer)
