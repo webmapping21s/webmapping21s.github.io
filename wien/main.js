@@ -62,7 +62,7 @@ let drawBusStop = (geojsonData) => {
             return L.marker(latlng, {
                 icon: L.icon({
                     iconUrl: 'icons/busstop.png',
-                    iconSize: [38, 38]
+                    iconSize: [32, 37]
                 })
             })
         },
@@ -127,7 +127,7 @@ let drawSites = (geojsonData) => {
             return L.marker(latlng, {
                 icon: L.icon({
                     iconUrl: 'icons/sehenswuerdigogd.png',
-                    iconSize: [38, 38]
+                    iconSize: [32, 32]
                 })
             })
         },
