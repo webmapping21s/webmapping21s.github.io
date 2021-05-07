@@ -18,7 +18,7 @@ In der abschließenden Gruppenarbeit für den Web mapping Kurs sollt ihr die im 
 
 ## Teams
 
-* Dreierteams t.b.a
+* Dreier-Teams t.b.a
 
 
 ## Deadlines
