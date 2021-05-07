@@ -11,12 +11,12 @@
 * 18.03.  CSS (Cascading Stylesheets)
 * 25.03.  Javascript & DOM (Document Object Model)
 * *Osterferien*
-* 15.04.  Leaflet Basics, WMTS, Marker & Popups 
-* 22.04.  Leaflet thematische Darstellung mit Javascript Datenobjekten
-* 29.04.  HTML Formulare, Interaktion im Browser & Animationen
-* 06.05.  Open government data, GeoJSON, Leaflet Icons & Markercluster
-* 20.05.  Leaflet DivIcons, Farbpaletten, Ajax
-* 27.05.  Leaflet GPX-Profile & GeoNames Web Services
+* 15.04.  Leaflet Basics: WMTS, Marker, Div-Icons & Popups; Javascript fetch-API 
+* 22.04.  Leaflet thematische Darstellung mit Farben und Javascript-Funktionen
+* 29.04.  Open government data mit Leaflet GeoJSON, Marker-Icons
+* 06.05.  Leaflet Plugins Hash, Fullscreen, Markercluster, Minimap, *Openrouteservice*
+* 20.05.  Leaflet Plugins GPX, Elevation
+* 27.05.  Kommunikation Javascript -> HTML, *GeoNames* Web Services
 * *Projektphase*
 * 17.06.  Präsentationen
 * 24.06.  Präsentationen (Ersatztermin)
@@ -36,6 +36,7 @@ Alle drei Bestandteile müssen positiv absolviert werden.
 ### Links
 * [Beispiele](https://webmapping.github.io/examples)
 * [Linksammlung](https://webmapping.github.io/links)
+* [Projekt](https://webmapping.github.io/project)
 * [Workload](https://webmapping.github.io/workload)
 * [Workload Link Checker](https://webmapping.github.io/workload/check.html)
 * [OLAT-Kurs](https://lms.uibk.ac.at/auth/RepositoryEntry/4894131358)
