@@ -1,4 +1,4 @@
-## Workload für die Woche vom 29. bis 6. Mai 2021
+## Workload für die Woche vom 29. April bis zum 6. Mai 2021
 
 ### 1. Codecademy Learn JavaScript Tutorials
 
