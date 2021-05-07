@@ -1,3 +1,7 @@
+---
+title: webmapping.online
+---
+
 # Geoinformatik: Web mapping (21S)
 ## Klaus Förster, Bernd Öggl, Johanna Roll (Tutorin)
 
