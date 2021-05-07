@@ -8,7 +8,7 @@ In der abschließenden Gruppenarbeit für den Web mapping Kurs sollt ihr die im 
 - mindestens eine dieser Seiten beinhaltet eine Kartenapplikation
 - die Kartenapplikation(en) soll(en) mindestens fünf *Leaflet Plugins* verwenden
 - Datenquellen und Bilder sollen frei verfügbar sein (*Open data*)
-- Geodaten sollen im Format *GeoJSON* oder *GPX* vorliegen
+- Geodaten sollen im Format *GeoJSON* und/oder *GPX* vorliegen
 - die Entwicklung der Applikation erfolgt fortlaufend unter Verwendung von *GIT*
     * zum gemeinsamen Arbeiten wird ein *Organizations* Account pro Team erstellt (siehe [GitHub Docs](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch))
     * alle Team-Mitglieder sind als Mitglieder dieser *Organization* einzutragen
