@@ -7,7 +7,7 @@
 ### 2. Vorbereitungen für die Projektphase
 
 * findet euch über das Forum im OLAT zu Dreier-Teams zusammen
-* überlegt euch eure Projekte anhand der Vorgaben unter <https://webmapping.online/projekte>
+* überlegt euch eure Projekte anhand der Vorgaben unter <https://webmapping.github.io/projects>
 * Erstellt eine passende *GitHub-Organization* für euer Projekt und tragt euch als Teammitglieder dort ein (siehe [GitHub Docs](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch))
 
 Bis spätestens **Donnerstag, 20. Mai 2021 mittags** sollen die Plugins eingebaut sein und ein E-Mail mit dem Namen eurer *GitHub-Organization* samt Teammitgliedern für das Projekt bei uns eingelangt sein.
