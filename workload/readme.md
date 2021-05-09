@@ -7,3 +7,4 @@
 - [WL5: AWS-Tirol Beispiel erweitern](https://webmapping.github.io/workload/wl5)
 - [WL6: AWS-Tirol Beispiel noch einmal erweitern](https://webmapping.github.io/workload/wl6)
 - [WL7: Codecademy Learn JavaScript Tutorials](https://webmapping.github.io/workload/wl7)
+- [WL8: Plugins implementieren & Vorbereitung Projektphase](https://webmapping.github.io/workload/wl8)
