@@ -34,12 +34,12 @@ Alle drei Bestandteile müssen positiv absolviert werden.
 * Plagiate werden für beide Parteien negativ beurteilt
 
 ### Links
-* [Beispiele](https://webmapping.github.io/examples)
-* [Linksammlung](https://webmapping.github.io/links)
-* [Projekt](https://webmapping.github.io/projects)
-* [Workload](https://webmapping.github.io/workload)
-* [Workload Link Checker](https://webmapping.github.io/workload/check.html)
+* [Beispiele](https://webmapping.online/examples)
+* [Linksammlung](https://webmapping.online/links)
+* [Projekt](https://webmapping.online/projects)
+* [Workload](https://webmapping.online/workload)
+* [Workload Link Checker](https://webmapping.online/workload/check.html)
 * [OLAT-Kurs](https://lms.uibk.ac.at/auth/RepositoryEntry/4894131358)
 * [https://github.com/webmapping](https://github.com/webmapping)
-* [https://webmapping.github.io](https://webmapping.github.io)
+* [https://webmapping.online](https://webmapping.online)
 
