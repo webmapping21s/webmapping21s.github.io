@@ -11,3 +11,6 @@
 
 ### Wien
 * Vorlage: <https://webmapping.github.io/templates/wien_template.zip>
+
+### Bike Trail Tirol:
+* Vorlage: <https://webmapping.github.io/templates/tirol_template.zip>
