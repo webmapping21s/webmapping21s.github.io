@@ -84,3 +84,5 @@ const drawTrack = (nr) => {
 
 const selectedTrack = 7;
 drawTrack(selectedTrack);
+
+console.log()
