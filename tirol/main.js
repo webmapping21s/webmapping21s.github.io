@@ -58,11 +58,12 @@ const drawTrack = (nr) => {
     elevationControl.clear();
     // clear GPX plugin layers
     overlays.tracks.clearLayers();
+    // bugfix for leaflet-elevation plugin not cleaning up
     if (activeElevationTrack) {
         activeElevationTrack.removeFrom(map);
     }
-    // bugfix for leaflet-elevation plugin not cleaning up
-    // TODO ...
+    // for new browsers:
+    // activeElevationTrack?.removeFrom(map);
     let gpxTrack = new L.GPX(`tracks/${nr}.gpx`, {
         async: true,
         marker_options: {
