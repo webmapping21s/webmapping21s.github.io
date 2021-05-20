@@ -65,9 +65,9 @@ const drawTrack = (nr) => {
         },
     }).addTo(overlays.tracks);
     gpxTrack.on("loaded", () => {
-        console.log('loaded gpx');
+        // console.log('loaded gpx');
         map.fitBounds(gpxTrack.getBounds());
-        console.log('Track name: ', gpxTrack.get_distance());
+        // console.log('Track name: ', gpxTrack.get_distance());
         gpxTrack.bindPopup(`
         <h3>${gpxTrack.get_name()}</h3>
         <ul>
