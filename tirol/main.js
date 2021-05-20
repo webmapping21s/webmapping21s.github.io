@@ -42,16 +42,22 @@ let layerControl = L.control.layers({
 // Overlay mit GPX-Track anzeigen
 overlays.tracks.addTo(map);
 
+// Elevation control initialisieren
 const elevationControl = L.control.elevation({
     elevationDiv: "#profile",
     followMarker: false,
     theme: 'lime-theme',
 }).addTo(map);
 
+// Funktion zum Zeichnen eines Tracks inkl. Hoehenprofil
 const drawTrack = (nr) => {
     // console.log('Track: ', nr);
+    // clear elevation data:
     elevationControl.clear();
+    // clear GPX plugin layers
     overlays.tracks.clearLayers();
+    // bugfix for leaflet-elevation plugin not cleaning up
+    // TODO ...
     let gpxTrack = new L.GPX(`tracks/${nr}.gpx`, {
         async: true,
         marker_options: {
@@ -64,6 +70,7 @@ const drawTrack = (nr) => {
             dashArray: [2, 5],
         },
     }).addTo(overlays.tracks);
+    // Eventhandler wenn alle Daten des GPX plugin geladen sind
     gpxTrack.on("loaded", () => {
         // console.log('loaded gpx');
         map.fitBounds(gpxTrack.getBounds());
@@ -78,8 +85,6 @@ const drawTrack = (nr) => {
             <li>Höhenmeter bergab: ${gpxTrack.get_elevation_loss()} m</li>
         </ul>
         `);
-        // TODO: popup with
-        // Name, max_height, min_height, total_dist
     });
     elevationControl.load(`tracks/${nr}.gpx`);
 };
@@ -89,7 +94,8 @@ drawTrack(selectedTrack);
 
 // console.log('biketirol json: ', BIKETIROL);
 let pulldown = document.querySelector("#pulldown");
-// console.log('Pulldown: ', pulldown);
+
+// Schleife zum Aufbau des Dropdown Menu
 let selected = '';
 for (let track of BIKETIROL) {
     if (selectedTrack == track.nr) {
@@ -100,6 +106,7 @@ for (let track of BIKETIROL) {
     pulldown.innerHTML += `<option ${selected} value="${track.nr}">${track.nr}: ${track.etappe}</option>`;
 }
 
+// Eventhandler fuer Aenderung des Dropdown
 pulldown.onchange = () => {
     // console.log('changed!!!!!', pulldown.value);
     drawTrack(pulldown.value);
