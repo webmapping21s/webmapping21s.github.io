@@ -49,6 +49,8 @@ const elevationControl = L.control.elevation({
     theme: 'lime-theme',
 }).addTo(map);
 
+let activeElevationTrack;
+
 // Funktion zum Zeichnen eines Tracks inkl. Hoehenprofil
 const drawTrack = (nr) => {
     // console.log('Track: ', nr);
@@ -56,6 +58,9 @@ const drawTrack = (nr) => {
     elevationControl.clear();
     // clear GPX plugin layers
     overlays.tracks.clearLayers();
+    if (activeElevationTrack) {
+        activeElevationTrack.removeFrom(map);
+    }
     // bugfix for leaflet-elevation plugin not cleaning up
     // TODO ...
     let gpxTrack = new L.GPX(`tracks/${nr}.gpx`, {
@@ -87,6 +92,10 @@ const drawTrack = (nr) => {
         `);
     });
     elevationControl.load(`tracks/${nr}.gpx`);
+    elevationControl.on('eledata_loaded', (evt) => {
+        activeElevationTrack = evt.layer;
+    })
+
 };
 
 const selectedTrack = 7;
