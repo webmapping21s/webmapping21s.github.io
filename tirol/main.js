@@ -59,7 +59,10 @@ const drawTrack = (nr) => {
     gpxTrack.on("loaded", () => {
         console.log('loaded gpx');
         map.fitBounds(gpxTrack.getBounds());
-    })
+        console.log('Track name: ', gpxTrack.get_name());
+        // TODO: popup with
+        // Name, max_height, min_height, total_dist
+    });
 };
 
 const selectedTrack = 7;
