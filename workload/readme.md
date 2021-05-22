@@ -8,3 +8,4 @@
 - [WL6: AWS-Tirol Beispiel noch einmal erweitern](https://webmapping.github.io/workload/wl6)
 - [WL7: Codecademy Learn JavaScript Tutorials](https://webmapping.github.io/workload/wl7)
 - [WL8: Plugins implementieren & Vorbereitung Projektphase](https://webmapping.github.io/workload/wl8)
+- [WL9: Account bei geonames.org und Projekt-Konzept](https://webmapping.github.io/workload/wl9)
