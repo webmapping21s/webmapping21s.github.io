@@ -6,7 +6,7 @@
 
 ### 2. Account bei GeoNames erstellen
 
-* erstellt euch bei <https://geonames.org/login> einen Account und testet ihn auf der Webservices-Seite <https://www.geonames.org/export/ws-overview.html> unter *wikipediaBoundingBox* mit der Option *JSON* (der Link dort verwendet `username=demo` und sollte mit eurem Benutzernamen funktionieren)
+* erstellt euch bei <https://www.geonames.org/login> einen Account und testet ihn auf der Webservices-Seite <https://www.geonames.org/export/ws-overview.html> unter *wikipediaBoundingBox* mit der Option *JSON* (der Link dort verwendet `username=demo` und sollte mit eurem Benutzernamen funktionieren)
 
 ### 3. Abgabe des Konzepts für das Projekt
 
