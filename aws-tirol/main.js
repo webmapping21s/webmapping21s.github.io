@@ -138,3 +138,12 @@ fetch(awsUrl)
     });
 
 L.control.rainviewer().addTo(map);
+
+L.control.fullscreen().addTo(map);
+
+let miniMap = new L.Control.MiniMap(
+    L.tileLayer.provider("BasemapAT.basemap"), {
+        toggleDisplay: true,
+        minimized: false
+    }
+).addTo(map);
