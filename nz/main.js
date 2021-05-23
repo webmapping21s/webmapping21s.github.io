@@ -56,3 +56,12 @@ nav.onchange = (evt) => {
 }
 
 console.log(document.querySelector("#map"));
+
+L.control.fullscreen().addTo(map);
+
+let miniMap = new L.Control.MiniMap(
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'), {
+        toggleDisplay: true,
+        minimized: false
+    }
+).addTo(map);
