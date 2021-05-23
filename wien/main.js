@@ -157,7 +157,7 @@ for (let config of OGDWIEN) {
 L.hash(map);
 
 // Minimap
-var miniMap = new L.Control.MiniMap(
+let miniMap = new L.Control.MiniMap(
     L.tileLayer.provider("BasemapAT.basemap"), {
         toggleDisplay: true,
         minimized: false
