@@ -52,6 +52,11 @@ const elevationControl = L.control.elevation({
     theme: 'lime-theme',
 }).addTo(map);
 
+// Wikipedia Artikel Zeichnen
+const drawWikipedia = (bounds) => {
+    console.log(bounds);
+};
+
 let activeElevationTrack;
 
 // Funktion zum Zeichnen eines Tracks inkl. Hoehenprofil
@@ -94,6 +99,9 @@ const drawTrack = (nr) => {
             <li>Höhenmeter bergab: ${gpxTrack.get_elevation_loss()} m</li>
         </ul>
         `);
+
+        // Wikipedia Artikel zeichnen
+        drawWikipedia(gpxTrack.getBounds());
     });
     elevationControl.load(`tracks/${nr}.gpx`);
     elevationControl.on('eledata_loaded', (evt) => {
