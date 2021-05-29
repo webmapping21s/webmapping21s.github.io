@@ -19,7 +19,6 @@
 * 27.05.  Kommunikation Javascript -> HTML, *GeoNames* Web Services
 * *Projektphase*
 * 17.06.  Präsentationen
-* 24.06.  Präsentationen (Ersatztermin)
 
 ### Anforderungen
 * 1/3 **Anwesenheit & aktive Mitarbeit**: maximal 2 x fehlen
