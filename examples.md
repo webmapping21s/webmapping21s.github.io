@@ -14,5 +14,9 @@
 
 ### Bike Trail Tirol:
 * Vorlage: <https://webmapping.github.io/templates/tirol_template.zip>
-* [HOWTO Wikipedia](https://webmapping.github.io/tirol/howto_wikipedia.html)
-* [HOWTO Metadata](https://webmapping.github.io/tirol/howto_metadata.html)
+* HOWTOs:
+    [GPX](https://webmapping.github.io/tirol/howto_1_gpx.html) |
+    [Profile](https://webmapping.github.io/tirol/howto_2_profile.html) |
+    [Pulldown](https://webmapping.github.io/tirol/howto_3_pulldown.html) |
+    [Wikipedia](https://webmapping.github.io/tirol/howto_4_wikipedia.html) |
+    [Metadata](https://webmapping.github.io/tirol/howto_5_metadata.html)
