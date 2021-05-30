@@ -9,3 +9,4 @@
 - [WL7: Codecademy Learn JavaScript Tutorials](https://webmapping.github.io/workload/wl7)
 - [WL8: Plugins implementieren & Vorbereitung Projektphase](https://webmapping.github.io/workload/wl8)
 - [WL9: Account bei geonames.org und Projekt-Konzept](https://webmapping.github.io/workload/wl9)
+- [WL10: Bike Trail Tirol Beispiel fertig machen](https://webmapping.github.io/workload/wl10)
