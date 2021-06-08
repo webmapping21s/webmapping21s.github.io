@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papa Parse Code Schnipsel</title>
+
+    <script src="papaparse.min.js"></script>
+    <script>
+        Papa.parse("https://wiski.tirol.gv.at/hydro/ogd/OGD_W.csv", {
+            download: true,
+            complete: function (results) {
+                console.log(results);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <p>so liest man CSV-Dateien direkt ... schau in den Quelltext und die Javascript console ...</p>
+    <p>Skriptlink: <a href="https://www.papaparse.com/">https://www.papaparse.com/</a></p>
+</body>
+
+</html>
