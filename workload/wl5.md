@@ -15,7 +15,7 @@ Natürlich sollen alle eure Schritte wie immer einzeln `committed` werden. Wir e
 
 ### Farb-Tabellen 
 
-* Anhand der Vorlage von <https://webmapping.github.io/aws-tirol/colors.js>
+* Anhand der Vorlage von <https://webmapping21s.github.io/aws-tirol/colors.js>
 sollen die fehlenden Farben für Temperatur und Schneehöhen in dieser Datei
 ergänzt werden (kopiert die Datei `colors.js` in euer `aws-tirol`-Verzeichnis). Geht dazu
 auf die Webseite <https://lawinen.report/weather/map/snow-height> und

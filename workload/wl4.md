@@ -23,7 +23,7 @@
     * Tutorial 1: https://username.github.io/codecademy/js_introduction/app.js
     * Tutorial 2: https://username.github.io/codecademy/js_variables/main.js
 
-* verwendet den [Workload Link Checker](https://webmapping.github.io/workload/check.html) bevor ihr mit den Tutorials beginnt (einfach die leeren Dateien committen, pushen und dann schauen, ob sie erreichbar sind)
+* verwendet den [Workload Link Checker](https://webmapping21s.github.io/workload/check.html) bevor ihr mit den Tutorials beginnt (einfach die leeren Dateien committen, pushen und dann schauen, ob sie erreichbar sind)
 
 * die leeren `app.js` und `main.js` Dateien am Ende der Tutorials müssen nicht commited werden
 

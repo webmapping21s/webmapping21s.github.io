@@ -1,6 +1,6 @@
 # Bike Trail Tirol HOWTO
 
-Beispiel: <https://webmapping.github.io/tirol/>
+Beispiel: <https://webmapping21s.github.io/tirol/>
 
 
 ## GPX-Daten von Bike Trail Tirol visualisieren
@@ -10,8 +10,8 @@ Quelle: <https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/3?form=bik
 
 ### 1. Wir starten mit dem Template
 
-* Vorlage <https://webmapping.github.io/templates/tirol_template.zip>
-* Zielort <https://webmapping.github.io/tirol>
+* Vorlage <https://webmapping21s.github.io/templates/tirol_template.zip>
+* Zielort <https://webmapping21s.github.io/tirol>
 
 * Inhalt 
     * einfache Grundkarte mit *basemap.at* Hintergrund-Layern und einem leeren Overlay für die GPX-Tracks

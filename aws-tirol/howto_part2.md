@@ -1,6 +1,6 @@
 # Wetterstationen Tirol, Teil 2
 
-<https://webmapping.github.io/aws-tirol/>
+<https://webmapping21s.github.io/aws-tirol/>
 
 ## A. Wir verfeinern den Code für die Overlays
 
@@ -55,7 +55,7 @@
     map.fitBounds(overlays.stations.getBounds());
     ```
 
-* Den Code für die alten Overlays können wir jetzt löschen. Dieser [Commit bei github.com](https://github.com/webmapping/webmapping.github.io/commit/86c53c7145c527b117d1590edc247917ca919707#diff-a7f70a836f9499378b86afd167e1ed438d670630f26a56bc39e3c25e09fd3417) zeigt uns in Rot, welche Code-Zeilen gelöscht wurde
+* Den Code für die alten Overlays können wir jetzt löschen. Dieser [Commit bei github.com](https://github.com/webmapping21s/webmapping21s.github.io/commit/86c53c7145c527b117d1590edc247917ca919707#diff-a7f70a836f9499378b86afd167e1ed438d670630f26a56bc39e3c25e09fd3417) zeigt uns in Rot, welche Code-Zeilen gelöscht wurde
 
 
 * Nachdem wir schon bei der Layer-Control sind, implementieren wir auch noch das dauerhafte Ausklappen dieser Control über die Option `collapsed` (siehe <https://leafletjs.com/reference.html#control-layers-collapsed>) beim dritten möglichen Argument von `L.control.layers`, dem optionalen `options`-Objekt:
@@ -162,7 +162,7 @@
     marker.addTo(overlays.temperature);
     ```
 
-* Der Text-Label sieht leider noch nicht so gut aus, was daran liegt, dass wir über die Option `className` eine neue CSS-Klasse `text-label` eingeführt haben, die in <https://webmapping.github.io/aws-tirol/main.css> noch nicht definiert ist. Mit *Rechter Maustaste* und *Element untersuchen(Q)* bei einem der Label sehen wir die Struktur des Icons und erkennen, dass wir unser `DIV`-Element mit dem Temperaturwert über den Selektor `.text-label div` ansprechen können. Die Eigenschaften unseres neuen CSS-Stils übernehmen wir aus der Klasse `.snow-label`:
+* Der Text-Label sieht leider noch nicht so gut aus, was daran liegt, dass wir über die Option `className` eine neue CSS-Klasse `text-label` eingeführt haben, die in <https://webmapping21s.github.io/aws-tirol/main.css> noch nicht definiert ist. Mit *Rechter Maustaste* und *Element untersuchen(Q)* bei einem der Label sehen wir die Struktur des Icons und erkennen, dass wir unser `DIV`-Element mit dem Temperaturwert über den Selektor `.text-label div` ansprechen können. Die Eigenschaften unseres neuen CSS-Stils übernehmen wir aus der Klasse `.snow-label`:
 
     ```css
     .text-label div {
@@ -193,9 +193,9 @@
 
 ## C. Die newLabel-Funktion für die anderen Layer verwenden
 
-* der dazugehörige [Commit bei github.com](https://github.com/webmapping/webmapping.github.io/commit/a353291e4f1d769a57ebd4cf12453a083465c507#diff-a7f70a836f9499378b86afd167e1ed438d670630f26a56bc39e3c25e09fd3417) zeigt die nötigen Änderungen. In diesem Schritt löschen wir auch den Code für alle `if`-Abfrage, die unsere Layer bisher mit Farbe erfüllt haben - wir werden später unsere eigenen Farbpaletten implementieren und das für alle Layer gleichzeitig.
+* der dazugehörige [Commit bei github.com](https://github.com/webmapping21s/webmapping21s.github.io/commit/a353291e4f1d769a57ebd4cf12453a083465c507#diff-a7f70a836f9499378b86afd167e1ed438d670630f26a56bc39e3c25e09fd3417) zeigt die nötigen Änderungen. In diesem Schritt löschen wir auch den Code für alle `if`-Abfrage, die unsere Layer bisher mit Farbe erfüllt haben - wir werden später unsere eigenen Farbpaletten implementieren und das für alle Layer gleichzeitig.
 
-Im nächsten Schritt können wir alle Label in allen Layern gleichzeitig nach den Farbklassen ihrer Farbskalen einfärben. Die Regeln dafür stehen im `COLORS`-Objekt der eingebundenen <https://webmapping.github.io/aws-tirol/colors.js> Datei und was liegt näher, als das Einfärben wieder in eine Funktion auszulagern.
+Im nächsten Schritt können wir alle Label in allen Layern gleichzeitig nach den Farbklassen ihrer Farbskalen einfärben. Die Regeln dafür stehen im `COLORS`-Objekt der eingebundenen <https://webmapping21s.github.io/aws-tirol/colors.js> Datei und was liegt näher, als das Einfärben wieder in eine Funktion auszulagern.
 
 ## D. Label über die getColor-Funktion Einfärben
 

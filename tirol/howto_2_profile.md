@@ -1,6 +1,6 @@
 # Bike Trail Tirol HOWTO
 
-Beispiel: <https://webmapping.github.io/tirol/>
+Beispiel: <https://webmapping21s.github.io/tirol/>
 
 ## Höhenprofil zeichnen
 

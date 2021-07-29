@@ -1,10 +1,10 @@
 # Bike Trail Tirol HOWTO
 
-Beispiel: <https://webmapping.github.io/tirol/>
+Beispiel: <https://webmapping21s.github.io/tirol/>
 
 ## Metadaten der Etappen auf der HTML-Seite anzeigen
 
-* das `BIKETIROL`-Objekt in <https://webmapping.github.io/tirol/biketirol.js> enthält für jede Etappe Metadaten, die wir zum Abschluss noch auf der HTML-Seite anzeigen werden. Wir schreiben die neue Funktion `updateTexts` direkt vor den Code zum Erzeugen des Menüs und übergeben ihr die Etappennummer als Argument `nr`:
+* das `BIKETIROL`-Objekt in <https://webmapping21s.github.io/tirol/biketirol.js> enthält für jede Etappe Metadaten, die wir zum Abschluss noch auf der HTML-Seite anzeigen werden. Wir schreiben die neue Funktion `updateTexts` direkt vor den Code zum Erzeugen des Menüs und übergeben ihr die Etappennummer als Argument `nr`:
 
     ```javascript
     const updateTexts = (nr) => {
